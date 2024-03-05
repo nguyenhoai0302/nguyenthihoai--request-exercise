@@ -18,6 +18,7 @@ use App\Http\Controllers\FormController;
 Route::get('/', function () {
     return view('form');
 });
+
 Route::post('/post', [FormController::class, 'post']);
 
 

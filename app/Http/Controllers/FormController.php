@@ -15,6 +15,6 @@ class FormController extends Controller
         $name = $request->input('name');
         $username = $request->input('username');
         $password = $request->input('password');
-        return "Name: $name <br> Username: $username <br> Password: $password";
+        return "Name: $name <br> UserName: $username <br> Password: $password";
     }
 }
