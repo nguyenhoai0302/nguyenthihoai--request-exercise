@@ -1,6 +1,5 @@
 <form action="{{ url('/post') }}" method="POST">
     @csrf
-
     <p>Name</p>
     <div>
         <input type="text" name="name" value="">
